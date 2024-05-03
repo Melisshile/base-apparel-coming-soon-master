@@ -1,0 +1,108 @@
+*{
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.left{
+   
+    width: 50%;
+    min-height: 100vh;
+    padding: 2.5% 10.5% 2.5% 5%;
+    background:url('./images/bg-pattern-desktop.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    margin-bottom: 2.5rem;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.heading >p{
+    letter-spacing: 1rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.para {
+    font-size: 16px;
+    text-align: left;
+    color: hsl(19, 64%, 50%);
+  }
+#were {
+    color: hsl(19, 64%, 50%);
+  }
+.heading >p span{
+    color: rgb(215, 141, 43);
+    font-weight: lighter;
+   
+}
+
+.para{
+    width: 80%;
+    margin-bottom: 3rem;
+}
+.input{
+    height: 3.5rem;
+    width: 30rem;
+    position: relative;
+}
+
+.input>input{
+    border:.1rem solid black; 
+    border-radius: 25px;
+    height: 100%;
+    padding: 0.2rem 1rem;
+    width: 100%;
+}
+.input>input:hover{
+    border:.1rem solid rgb(215, 141, 43); 
+}
+.input>button{
+    position: absolute;
+    padding:0.2rem 3rem;
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+    right: 0;
+    background-color: rgb(215, 141, 43);
+    cursor: pointer;
+
+}
+.error{
+    position:absolute;
+    right: 120px;
+    bottom: 15px;
+    
+}
+.input p{
+    padding: 5px 0px 0px 20px;
+    color: rgb(215, 141, 43);
+}
+.right{
+    
+    width: 60%;
+    min-height: auto;
+    overflow: hidden;
+}
+.right div>img{
+    object-fit: contain;
+   float: right;  
+}
+.attribution {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
